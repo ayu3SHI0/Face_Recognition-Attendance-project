@@ -1,0 +1,4 @@
+# Face_Recognition-Attendance-project
+In this, Face-Recognition and Attendance Project, language used is Python with cmake and dlib,cv2, NumPy libraries. Face-Recognition deals with the matching of facial features by recognizing face-distance. Here, two images when passed, checks if they are of the same person and returns true. But if not, it returns false.
+![Screenshot (2)](https://user-images.githubusercontent.com/78093967/170690258-a9e0f7a0-2712-4760-b3f3-6fdbf4c089d0.png)
+in attendance project, firstly, images are passed of the attendees then encodings of the images are found out by findEncodings function. By accessing webcam, images are examined through and their attendance is marked in a .csv file by opening that file in read and write mode simultaneously. Then the names of attendees and their time are noted in att.csv file through which the data(Name and Time) could be accesssible in form of excel sheets.
